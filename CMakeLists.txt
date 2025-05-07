@@ -11,4 +11,4 @@ set(CMAKE_CXX_FLAGS "-mmcu=at90can128")
 
 add_definitions(-DF_CPU=16000000UL -DBAUD=115200)
 
-add_executable(XMemCheckAVR src/main.cpp src/com/usart.cpp)
+add_executable(XMemCheckAVR src/main.cpp src/com/usart.cpp src/util/xmem.cpp)
